@@ -11,7 +11,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 # Channel ID for forwarding downloaded tracks
 # If provided, all downloaded tracks will be forwarded to this channel
 # Must be in format: -100xxxxxxxxxx for public/private channels or @channel_username
-FORWARD_CHANNEL_ID = os.getenv("FORWARD_CHANNEL_ID", "-1002618006027")
+FORWARD_CHANNEL_ID = os.getenv("FORWARD_CHANNEL_ID", "")
 
 # SoundCloud API URL - Changed to the working URL format for the API v2
 SOUNDCLOUD_SEARCH_API = "https://api-v2.soundcloud.com/search/tracks"
